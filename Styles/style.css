@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#buttons button {
+    min-width: 48%;
+}
+@media screen and (max-width:550px) {
+    #buttons button {
+        min-width: 90%;
+    }
+}
